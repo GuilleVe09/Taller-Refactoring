@@ -32,11 +32,6 @@ public class Paralelo {
     public void setProfesor(Profesor profesor) {
         this.profesor = profesor;
     }
-    
-    //Imprime el listado de estudiantes registrados
-    public void mostrarListado(){
-        //No es necesario implementar
-    }
-    
-    
+
 }
+

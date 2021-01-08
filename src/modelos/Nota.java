@@ -1,10 +1,10 @@
 package modelos;
 
 public class Nota {
-	
-    public double notaInicial;
-    public double notaFinal;
-    public double notaTotal;
+    
+    private double notaInicial;
+    private double notaFinal;
+    private double notaTotal;
     
     public double getNotaInicial() {
         return notaInicial;

@@ -1,14 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package modelos;
 
-/**
- *
- * @author User
- */
 public class Telefono {
     private String numero;
     private String operadora;
@@ -41,5 +32,4 @@ public class Telefono {
     public void setPropietario(Persona propietario) {
         this.propietario = propietario;
     }
-
 }
