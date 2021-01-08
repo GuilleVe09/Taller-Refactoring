@@ -4,9 +4,8 @@ public class Materia {
     public String codigo;
     public String nombre;
     public String facultad;
-    public double notaInicial;
-    public double notaFinal;
-    public double notaTotal;
+    public Nota nota;
+    
 
     public String getCodigo() {
         return codigo;
@@ -18,19 +17,11 @@ public class Materia {
 
     public String getFacultad() {
         return facultad;
-    }
-
-    public double getNotaInicial() {
-        return notaInicial;
-    }
-
-    public double getNotaFinal() {
-        return notaFinal;
-    }
-
-    public double getNotaTotal() {
-        return notaTotal;
-    }
+    } 
+    
+    public Nota getNota() {
+        return nota;
+    } 
 
     public void setCodigo(String codigo) {
         this.codigo = codigo;
@@ -43,18 +34,12 @@ public class Materia {
     public void setFacultad(String facultad) {
         this.facultad = facultad;
     }
-
-    public void setNotaInicial(double notaInicial) {
-        this.notaInicial = notaInicial;
+    
+    public void setNota(Nota nota) {
+        this.nota = nota;
     }
 
-    public void setNotaFinal(double notaFinal) {
-        this.notaFinal = notaFinal;
-    }
-
-    public void setNotaTotal(double notaTotal) {
-        this.notaTotal = notaTotal;
-    }
+   
     
     
 }
