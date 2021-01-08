@@ -2,7 +2,7 @@ package modelos;
 
 public class Nota {
 	
-	public double notaInicial;
+    public double notaInicial;
     public double notaFinal;
     public double notaTotal;
     

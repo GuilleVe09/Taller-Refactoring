@@ -4,6 +4,6 @@ public class calcularSueldoProfesor {
     
     public double calcularSueldo(Profesor prof){        
     	
-        return prof.info.aniosdeTrabajo*600 + prof.info.BonoFijo;
+        return prof.getInfo().aniosdeTrabajo*600 + prof.getInfo().BonoFijo;
     }  
 }
